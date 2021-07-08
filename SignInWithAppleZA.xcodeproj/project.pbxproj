@@ -1,0 +1,593 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		741726AF2696DF00003D4BAE /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 741726AE2696DF00003D4BAE /* AppDelegate.m */; };
+		741726B22696DF00003D4BAE /* SceneDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 741726B12696DF00003D4BAE /* SceneDelegate.m */; };
+		741726B52696DF00003D4BAE /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 741726B42696DF00003D4BAE /* ViewController.m */; };
+		741726B82696DF00003D4BAE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 741726B62696DF00003D4BAE /* Main.storyboard */; };
+		741726BA2696DF04003D4BAE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 741726B92696DF04003D4BAE /* Assets.xcassets */; };
+		741726BD2696DF04003D4BAE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 741726BB2696DF04003D4BAE /* LaunchScreen.storyboard */; };
+		741726C02696DF04003D4BAE /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 741726BF2696DF04003D4BAE /* main.m */; };
+		741726CA2696DF04003D4BAE /* SignInWithAppleZATests.m in Sources */ = {isa = PBXBuildFile; fileRef = 741726C92696DF04003D4BAE /* SignInWithAppleZATests.m */; };
+		741726D52696DF04003D4BAE /* SignInWithAppleZAUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 741726D42696DF04003D4BAE /* SignInWithAppleZAUITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		741726C62696DF04003D4BAE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 741726A22696DF00003D4BAE /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 741726A92696DF00003D4BAE;
+			remoteInfo = SignInWithAppleZA;
+		};
+		741726D12696DF04003D4BAE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 741726A22696DF00003D4BAE /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 741726A92696DF00003D4BAE;
+			remoteInfo = SignInWithAppleZA;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		741726AA2696DF00003D4BAE /* SignInWithAppleZA.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SignInWithAppleZA.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		741726AD2696DF00003D4BAE /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		741726AE2696DF00003D4BAE /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		741726B02696DF00003D4BAE /* SceneDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SceneDelegate.h; sourceTree = "<group>"; };
+		741726B12696DF00003D4BAE /* SceneDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SceneDelegate.m; sourceTree = "<group>"; };
+		741726B32696DF00003D4BAE /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		741726B42696DF00003D4BAE /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		741726B72696DF00003D4BAE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		741726B92696DF04003D4BAE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		741726BC2696DF04003D4BAE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		741726BE2696DF04003D4BAE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		741726BF2696DF04003D4BAE /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		741726C52696DF04003D4BAE /* SignInWithAppleZATests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SignInWithAppleZATests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		741726C92696DF04003D4BAE /* SignInWithAppleZATests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SignInWithAppleZATests.m; sourceTree = "<group>"; };
+		741726CB2696DF04003D4BAE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		741726D02696DF04003D4BAE /* SignInWithAppleZAUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SignInWithAppleZAUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		741726D42696DF04003D4BAE /* SignInWithAppleZAUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SignInWithAppleZAUITests.m; sourceTree = "<group>"; };
+		741726D62696DF04003D4BAE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		741726A72696DF00003D4BAE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		741726C22696DF04003D4BAE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		741726CD2696DF04003D4BAE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		741726A12696DF00003D4BAE = {
+			isa = PBXGroup;
+			children = (
+				741726AC2696DF00003D4BAE /* SignInWithAppleZA */,
+				741726C82696DF04003D4BAE /* SignInWithAppleZATests */,
+				741726D32696DF04003D4BAE /* SignInWithAppleZAUITests */,
+				741726AB2696DF00003D4BAE /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		741726AB2696DF00003D4BAE /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				741726AA2696DF00003D4BAE /* SignInWithAppleZA.app */,
+				741726C52696DF04003D4BAE /* SignInWithAppleZATests.xctest */,
+				741726D02696DF04003D4BAE /* SignInWithAppleZAUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		741726AC2696DF00003D4BAE /* SignInWithAppleZA */ = {
+			isa = PBXGroup;
+			children = (
+				741726AD2696DF00003D4BAE /* AppDelegate.h */,
+				741726AE2696DF00003D4BAE /* AppDelegate.m */,
+				741726B02696DF00003D4BAE /* SceneDelegate.h */,
+				741726B12696DF00003D4BAE /* SceneDelegate.m */,
+				741726B32696DF00003D4BAE /* ViewController.h */,
+				741726B42696DF00003D4BAE /* ViewController.m */,
+				741726B62696DF00003D4BAE /* Main.storyboard */,
+				741726B92696DF04003D4BAE /* Assets.xcassets */,
+				741726BB2696DF04003D4BAE /* LaunchScreen.storyboard */,
+				741726BE2696DF04003D4BAE /* Info.plist */,
+				741726BF2696DF04003D4BAE /* main.m */,
+			);
+			path = SignInWithAppleZA;
+			sourceTree = "<group>";
+		};
+		741726C82696DF04003D4BAE /* SignInWithAppleZATests */ = {
+			isa = PBXGroup;
+			children = (
+				741726C92696DF04003D4BAE /* SignInWithAppleZATests.m */,
+				741726CB2696DF04003D4BAE /* Info.plist */,
+			);
+			path = SignInWithAppleZATests;
+			sourceTree = "<group>";
+		};
+		741726D32696DF04003D4BAE /* SignInWithAppleZAUITests */ = {
+			isa = PBXGroup;
+			children = (
+				741726D42696DF04003D4BAE /* SignInWithAppleZAUITests.m */,
+				741726D62696DF04003D4BAE /* Info.plist */,
+			);
+			path = SignInWithAppleZAUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		741726A92696DF00003D4BAE /* SignInWithAppleZA */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 741726D92696DF04003D4BAE /* Build configuration list for PBXNativeTarget "SignInWithAppleZA" */;
+			buildPhases = (
+				741726A62696DF00003D4BAE /* Sources */,
+				741726A72696DF00003D4BAE /* Frameworks */,
+				741726A82696DF00003D4BAE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SignInWithAppleZA;
+			productName = SignInWithAppleZA;
+			productReference = 741726AA2696DF00003D4BAE /* SignInWithAppleZA.app */;
+			productType = "com.apple.product-type.application";
+		};
+		741726C42696DF04003D4BAE /* SignInWithAppleZATests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 741726DC2696DF04003D4BAE /* Build configuration list for PBXNativeTarget "SignInWithAppleZATests" */;
+			buildPhases = (
+				741726C12696DF04003D4BAE /* Sources */,
+				741726C22696DF04003D4BAE /* Frameworks */,
+				741726C32696DF04003D4BAE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				741726C72696DF04003D4BAE /* PBXTargetDependency */,
+			);
+			name = SignInWithAppleZATests;
+			productName = SignInWithAppleZATests;
+			productReference = 741726C52696DF04003D4BAE /* SignInWithAppleZATests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		741726CF2696DF04003D4BAE /* SignInWithAppleZAUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 741726DF2696DF04003D4BAE /* Build configuration list for PBXNativeTarget "SignInWithAppleZAUITests" */;
+			buildPhases = (
+				741726CC2696DF04003D4BAE /* Sources */,
+				741726CD2696DF04003D4BAE /* Frameworks */,
+				741726CE2696DF04003D4BAE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				741726D22696DF04003D4BAE /* PBXTargetDependency */,
+			);
+			name = SignInWithAppleZAUITests;
+			productName = SignInWithAppleZAUITests;
+			productReference = 741726D02696DF04003D4BAE /* SignInWithAppleZAUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		741726A22696DF00003D4BAE /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1250;
+				TargetAttributes = {
+					741726A92696DF00003D4BAE = {
+						CreatedOnToolsVersion = 12.5.1;
+					};
+					741726C42696DF04003D4BAE = {
+						CreatedOnToolsVersion = 12.5.1;
+						TestTargetID = 741726A92696DF00003D4BAE;
+					};
+					741726CF2696DF04003D4BAE = {
+						CreatedOnToolsVersion = 12.5.1;
+						TestTargetID = 741726A92696DF00003D4BAE;
+					};
+				};
+			};
+			buildConfigurationList = 741726A52696DF00003D4BAE /* Build configuration list for PBXProject "SignInWithAppleZA" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 741726A12696DF00003D4BAE;
+			productRefGroup = 741726AB2696DF00003D4BAE /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				741726A92696DF00003D4BAE /* SignInWithAppleZA */,
+				741726C42696DF04003D4BAE /* SignInWithAppleZATests */,
+				741726CF2696DF04003D4BAE /* SignInWithAppleZAUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		741726A82696DF00003D4BAE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				741726BD2696DF04003D4BAE /* LaunchScreen.storyboard in Resources */,
+				741726BA2696DF04003D4BAE /* Assets.xcassets in Resources */,
+				741726B82696DF00003D4BAE /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		741726C32696DF04003D4BAE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		741726CE2696DF04003D4BAE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		741726A62696DF00003D4BAE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				741726B52696DF00003D4BAE /* ViewController.m in Sources */,
+				741726AF2696DF00003D4BAE /* AppDelegate.m in Sources */,
+				741726C02696DF04003D4BAE /* main.m in Sources */,
+				741726B22696DF00003D4BAE /* SceneDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		741726C12696DF04003D4BAE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				741726CA2696DF04003D4BAE /* SignInWithAppleZATests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		741726CC2696DF04003D4BAE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				741726D52696DF04003D4BAE /* SignInWithAppleZAUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		741726C72696DF04003D4BAE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 741726A92696DF00003D4BAE /* SignInWithAppleZA */;
+			targetProxy = 741726C62696DF04003D4BAE /* PBXContainerItemProxy */;
+		};
+		741726D22696DF04003D4BAE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 741726A92696DF00003D4BAE /* SignInWithAppleZA */;
+			targetProxy = 741726D12696DF04003D4BAE /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		741726B62696DF00003D4BAE /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				741726B72696DF00003D4BAE /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		741726BB2696DF04003D4BAE /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				741726BC2696DF04003D4BAE /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		741726D72696DF04003D4BAE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		741726D82696DF04003D4BAE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		741726DA2696DF04003D4BAE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 49ADJ7STH4;
+				INFOPLIST_FILE = SignInWithAppleZA/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = ZongAng.SignInWithAppleZA;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		741726DB2696DF04003D4BAE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 49ADJ7STH4;
+				INFOPLIST_FILE = SignInWithAppleZA/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = ZongAng.SignInWithAppleZA;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		741726DD2696DF04003D4BAE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 49ADJ7STH4;
+				INFOPLIST_FILE = SignInWithAppleZATests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = ZongAng.SignInWithAppleZATests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SignInWithAppleZA.app/SignInWithAppleZA";
+			};
+			name = Debug;
+		};
+		741726DE2696DF04003D4BAE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 49ADJ7STH4;
+				INFOPLIST_FILE = SignInWithAppleZATests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = ZongAng.SignInWithAppleZATests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SignInWithAppleZA.app/SignInWithAppleZA";
+			};
+			name = Release;
+		};
+		741726E02696DF04003D4BAE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 49ADJ7STH4;
+				INFOPLIST_FILE = SignInWithAppleZAUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = ZongAng.SignInWithAppleZAUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = SignInWithAppleZA;
+			};
+			name = Debug;
+		};
+		741726E12696DF04003D4BAE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 49ADJ7STH4;
+				INFOPLIST_FILE = SignInWithAppleZAUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = ZongAng.SignInWithAppleZAUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = SignInWithAppleZA;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		741726A52696DF00003D4BAE /* Build configuration list for PBXProject "SignInWithAppleZA" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				741726D72696DF04003D4BAE /* Debug */,
+				741726D82696DF04003D4BAE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		741726D92696DF04003D4BAE /* Build configuration list for PBXNativeTarget "SignInWithAppleZA" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				741726DA2696DF04003D4BAE /* Debug */,
+				741726DB2696DF04003D4BAE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		741726DC2696DF04003D4BAE /* Build configuration list for PBXNativeTarget "SignInWithAppleZATests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				741726DD2696DF04003D4BAE /* Debug */,
+				741726DE2696DF04003D4BAE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		741726DF2696DF04003D4BAE /* Build configuration list for PBXNativeTarget "SignInWithAppleZAUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				741726E02696DF04003D4BAE /* Debug */,
+				741726E12696DF04003D4BAE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 741726A22696DF00003D4BAE /* Project object */;
+}
